@@ -1,3 +1,6 @@
+# Optional monitoring add-on (not part of the application deployment):
+# exposes a Prometheus node-exporter installed with Helm in the "prometheus-node-exporter" namespace.
+# See README.md > "Monitoring".
 kind: Service
 apiVersion: v1
 metadata:

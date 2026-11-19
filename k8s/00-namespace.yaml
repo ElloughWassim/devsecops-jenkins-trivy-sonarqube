@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: movie-app
+  labels:
+    app.kubernetes.io/part-of: devsecops-jenkins-trivy-sonarqube
+    pod-security.kubernetes.io/enforce: restricted

@@ -1,0 +1,11 @@
+# Historical findings inherited from the upstream repositories (N4si/DevSecOps-Project and its
+# sources). They are TMDB API keys committed in 2022-2023 by previous authors, already public in
+# the upstream history. They do not belong to this repository's maintainer, are not used here,
+# and are removed from the current tree. The key owners should revoke them.
+# Listing the fingerprints keeps the history intact (fork) while new leaks still fail CI.
+abfb94e2b9caf732c3e9c9d362c67b35dbee95e5:.env:generic-api-key:3
+ac14e8ba611b309959f3d68d65088e5878252c0f:.env.example:generic-api-key:2
+b0efc19ea7d3009eb1c1ddd7d6bdd93e7835d4dc:.env:generic-api-key:2
+ab312a4799d07102fd6e6e9938dd744dc97b2ec9:.env:generic-api-key:2
+051c043a228b7ecf2361b5ac5a9ff21003f85576:.env:generic-api-key:2
+95f32d19dffed35977d9f9a391c33d97c42bdbfd:README.md:generic-api-key:312

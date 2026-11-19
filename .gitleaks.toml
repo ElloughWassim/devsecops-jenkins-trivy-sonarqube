@@ -1,0 +1,8 @@
+# Gitleaks configuration: default rules plus a narrow allowlist.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "TMDB key passed by variable name (the value comes from VITE_APP_TMDB_V3_API_KEY at build time)"
+regexTarget = "match"
+regexes = ['''api_key: TMDB_V3_API_KEY''']
