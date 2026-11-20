@@ -14,7 +14,8 @@ ENV VITE_APP_TMDB_V3_API_KEY=${TMDB_V3_API_KEY} \
 RUN yarn build
 
 # ---- Runtime stage: unprivileged nginx -----------------------------------------
-FROM nginxinc/nginx-unprivileged:stable-alpine
+# mainline: receives nginx security fixes first (stable-alpine still shipped a vulnerable nginx 1.30.6).
+FROM nginxinc/nginx-unprivileged:mainline-alpine
 # Apply Alpine security updates published after the base image was built, then drop back to the
 # unprivileged nginx user.
 USER root
