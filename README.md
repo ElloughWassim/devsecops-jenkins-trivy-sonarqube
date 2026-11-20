@@ -6,10 +6,6 @@ A DevSecOps delivery pipeline for a React + TypeScript single-page application t
 [TMDB API](https://developer.themoviedb.org/). Every change goes through code-quality, dependency, filesystem
 and image security gates before a non-root container is published and deployed to Docker or Kubernetes.
 
-> **Fork notice.** This repository is a fork of [N4si/DevSecOps-Project](https://github.com/N4si/DevSecOps-Project).
-> The React application and the original tutorial were written by other people (see
-> [Attribution](#license-and-attribution)). My work is the pipeline, container, Kubernetes, CI and security
-> hardening listed in [What this fork changes](#what-this-fork-changes).
 
 ## Project overview
 
