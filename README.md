@@ -169,19 +169,6 @@ Parameters: `REGISTRY` (`dockerhub` | `ecr`), `DEPLOY_TARGET` (`kubernetes` | `c
   service-account token, all capabilities dropped, `RuntimeDefault` seccomp, security headers, `server_tokens off`.
 - `.trivyignore` documents the only accepted exception (the image placeholder in the manifest).
 
-## License and attribution
-
-**No license.** The upstream repository has no license, so this fork does not grant one either: the code
-remains under its authors' copyright. It is published as a GitHub fork, which GitHub's Terms of Service allow.
-
-- **React application:** commit history shows `pydjangodev` and Endo Aki (2022) as the original authors.
-- **DevSecOps tutorial and original pipeline:** [N4si](https://github.com/N4si/DevSecOps-Project), with
-  contributions from [Aj7Ay](https://github.com/Aj7Ay).
-- **Pipeline, container, Kubernetes, CI and security hardening in this fork:** ElloughWassim.
-- Movie data and images: [TMDB](https://www.themoviedb.org/). This product uses the TMDB API but is not
-  endorsed or certified by TMDB.
-- The UI imitates a well-known streaming service for learning purposes. It is not affiliated with or endorsed
-  by that company, and its trademarks belong to their owners.
 
 ## Maintainer
 
