@@ -217,13 +217,7 @@ Dependabot checks npm, Docker and GitHub Actions dependencies weekly.
 `prometheus-node-exporter` namespace. It is not part of the application deployment. Prometheus, Grafana and
 Argo CD are only covered by `docs/infrastructure-setup-guide.md` and are not automated by this repository.
 
-## Screenshots
 
-Application screenshots from the upstream project are stored in `public/assets/`:
-
-| Home page | Detail modal | Genre grid |
-|---|---|---|
-| ![Home page](public/assets/home-page.png) | ![Detail modal](public/assets/detail-modal.png) | ![Genre grid](public/assets/grid-genre.png) |
 
 ## License
 
@@ -231,18 +225,7 @@ Application screenshots from the upstream project are stored in `public/assets/`
 project.** Without a license, the upstream code remains under the exclusive copyright of its original
 authors. No license is granted for this repository at this time.
 
-## Attribution
 
-- **Upstream project:** DevSecOps-Project by N4si (CloudChamp), source
-  [N4si/DevSecOps-Project](https://github.com/N4si/DevSecOps-Project). The React application, its assets and
-  the original tutorial come from this project. `docs/infrastructure-setup-guide.md` is that tutorial,
-  lightly edited.
-- **Data:** this product uses the TMDB API but is not endorsed or certified by TMDB.
-- **Trademarks:** "Netflix" and the Netflix logo are trademarks of Netflix, Inc. This project is a
-  non-commercial educational clone and is not affiliated with or endorsed by Netflix.
-- **Work in this repository by ElloughWassim:** `Jenkinsfile`, `Dockerfile`, `nginx.conf`, `k8s/`,
-  `.github/`, `sonar-project.properties`, `.dockerignore`, Gitleaks and Trivy configuration, dependency
-  upgrades and this README.
 
 ## Author
 
