@@ -15,6 +15,10 @@ RUN yarn build
 
 # ---- Runtime stage: unprivileged nginx -----------------------------------------
 FROM nginxinc/nginx-unprivileged:stable-alpine
+# Apply Alpine security updates published after the base image was built, then drop back to the
+# unprivileged nginx user.
+USER root
+RUN apk upgrade --no-cache
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/dist /usr/share/nginx/html
 USER 101
